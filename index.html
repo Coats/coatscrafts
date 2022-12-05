@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Coats Crafts - Global Leaders in Sewing &amp;Needlecrafts</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/apple-touch-icon.png" type="image/gif" sizes="16x16">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+    @font-face {
+      font-family: "avenir";
+      src: url(fonts/avenir-font/Svenir-Roman.ttf) format("truetype");
+    }
+    body{
+      font-family: "avenir", sans-serif;
+    }
+  .carousel-inner{
+    height: 600px;
+  }
+  .carousel-inner .carousel-item{
+    height: 100%;
+    background-size: 120%;
+    background-position: 0px;
+  }
+  .coats_left_sticky{
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:9999;
+    width: 500px;
+  }
+  .coats_left_sticky .coats_logo{
+    width:100px;
+    float: left;
+  }
+  .coats_left_sticky .coats_logo img{
+    width:100%
+  }
+  .coats_left_sticky .coats_banner{
+    width:calc(100% - 120px);
+    height: 600px;
+    float: left;
+    margin-left: 20px;
+    background-color: rgb(49 68 150 / 0.5);
+    padding: 120px 15px 15px 15px;
+  }
+  .coats_left_sticky .coats_banner .coats_banner_footer{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+  .coats_left_sticky .coats_banner h3{
+      font-size:45px;
+      text-align: center;
+      margin: 0px;
+      line-height: 50px;
+      color:#fff;
+      letter-spacing: 3px;
+      float: left;
+    }
+  .coats_left_sticky .coats_banner h3 span.MakeIt{
+    font-size: 77px;
+    line-height: 70px;
+    text-align: center;
+    width:100%;
+  }
+  .coats_left_sticky .coats_banner h3 span.Coats{
+    font-size: 95px;
+    line-height: 90px;
+    text-align: center;
+    width:100%;
+  }
+  .coats_left_sticky .coats_banner p{
+    float:left;
+    font-size: 12px;
+    color: #fff;
+    padding: 0px 10px;
+  }
+  .coats_left_sticky .coats_banner .coats_footer_social{
+    float: left;
+  }
+  .coats_left_sticky .coats_banner .coats_footer_social ul li{
+    display: inline;
+    font-size: 10px;
+    color: #ffff;
+    padding-right: 5px;
+  }
+  .selectSect{
+    min-width: 200px;
+    padding: 0px 10px;
+  }
+  .postRel{
+    position: relative;
+  }
+  body .sliderControl{
+    display: block;
+    right: 80px;
+    left: auto;
+    top: 40px;
+    width: 0px;
+    opacity: 1;
+    z-index: 9999999;
+  }
+  body .sliderControl.carousel-control-prev{
+    right: 140px;
+  }
+  .sliderControl i{
+    color: #fff;
+    background-color: #7b88b3;
+    padding: 10px 13px;
+    border-radius: 30px;
+    position: absolute;
+  }
+@media  only screen and (max-width: 767px) {
+  .carousel-inner{
+    height: 750px;
+  }
+  .carousel-inner .container .coats_left_sticky{
+    width:100%;
+  }
+  .carousel-inner .container{
+    min-width: 100%;
+  }
+  .carousel-inner .container .coats_left_sticky .coats_banner{
+    float: none;
+    width:100%;
+    margin-left: 0px;
+    height: 750px;
+  }
+  .carousel-inner .carousel-item{
+    background-size: cover;
+    background-position: center;
+  }
+  .coats_left_sticky .coats_banner h3,body .coats_left_sticky .coats_banner h3 span.MakeIt,body .coats_left_sticky .coats_banner h3 span.Coats{
+    text-align: left;
+  }
+  .coats_left_sticky .coats_banner{
+    padding-top: 200px;
+  }
+  .coats_left_sticky .coats_logo {
+    position: absolute;
+    z-index: 99999;
+  }
+  .sliderControl i {
+    color: #7b88b3;
+    background-color: #fff;
+  }
+}
+
+  </style>
+</head>
+<body>
+
+<div id="demo" class="carousel slide" data-interval="false" data-ride="carousel">
+
+  <!-- Indicators -->
+  <!-- <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+   -->
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="container postRel">
+        <div class="coats_left_sticky">
+            <div class="coats_logo">
+              <img src="images/coats_logo.png"/>
+            </div>
+            <div class="coats_banner postRel">
+              <h3>WELCOME TO <span class="MakeIt float-left">MAKE IT</span><span class="Coats float-left">COATS</span></h3>
+              <p>Discover our main websites that all share our passion for textile crafting and are designed to help crafters unleash their creativity.</p>
+              <div class="form-group float-left selectSect">
+                <select id="sel1" class="form-control" name="countries" size="1" onchange="javascript:location.href = this.value;">
+         <option>Please select a country</option>
+		 <option value="https://coatscrafts.in/">India</option>
+         <option value="https://coatsmexico.com/">Mexico</option>
+		 <option value="https://cadenacoats.com">South America</option>
+         </select>
+                                      </div>
+              <div class="coats_banner_footer px-3">
+                <p>Registered in England and Wales under registration number 04620973.</br>Registered office: The Pavilions, Bridgwater Road, Bristol BS13 8FD.</br>VAT number 556766202.</p>
+                <!-- <div class="coats_footer_social pl-2">
+                  <ul class="p-0">
+                    <li><img src="images/social.png" width="20px"/> + 44(000000000)</li>
+                    <li><img src="images/social1.png" width="20px"/> + 44(000000000)</li>
+                    <li><img src="images/social2.png" width="20px"/> + 44(000000000)</li>
+                  </ul>
+                </div> -->
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="carousel-item active" style="background-image:url('images/1.jpg')">
+    </div>
+    <div class="carousel-item" style="background-image:url('images/2.jpg')" >
+    </div>
+    <div class="carousel-item" style="background-image:url('images/3.jpg')">
+    </div>
+    <div class="carousel-item" style="background-image:url('images/5.jpg')">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev sliderControl" href="#demo" data-slide="prev">
+      <i class="fas fa-chevron-left"></i>
+  </a>
+  <a class="carousel-control-next sliderControl" href="#demo" data-slide="next">
+      <i class="fas fa-chevron-right"></i>
+  </a>
+</div>
+
+</body>
+</html>
+<script>
+$(document).ready(function () {
+  $('select').on('change', function() {
+$(this.value).attr('target', '_blank');
+});
+});
+</script>
